@@ -1,0 +1,93 @@
+body {
+    background-color: #394867;
+    color: #fff;
+}
+
+h1::before {
+    content: "1.";
+}
+
+h1::after {
+    content: "- 기본";
+}
+
+
+/*  */
+@media (min-width: 576px){
+    body {
+        background-color: #7dff88;
+        color: #410f63;
+    }
+    
+    h1::before {
+        content: "2.";
+    }
+    
+    h1::after {
+        content: "576px-767px ";
+    }
+}
+@media (min-width:768px){
+    /* 768px 보다 화면이 커지면 */
+    body {
+        background-color: #ebbb54;
+        color: #410f63;
+    }
+    
+    h1::before {
+        content: "3.";
+    }
+    
+    h1::after {
+        content: "768px-959px ";
+    }
+}
+
+@media (min-width:960px){
+    /* 768px 보다 화면이 커지면 */
+    body {
+        background-color: #c9f1a7;
+        color: #410f63;
+    }
+    
+    h1::before {
+        content: "4.";
+    }
+    
+    h1::after {
+        content: "960px-1023px ";
+    }
+}
+
+@media (min-width:1024px){
+    /* 768px 보다 화면이 커지면 */
+    body {
+        background-color: #f1c5e1;
+        color: #410f63;
+        
+    }
+    
+    h1::before {
+        content: "5.";
+    }
+    
+    h1::after {
+        content: "1024px-1279px ";
+    }
+}
+
+@media (min-width:1280px){
+    /* 768px 보다 화면이 커지면 */
+    body {
+        background-color: #bb0101;
+        color: #ffffff;
+    }
+    
+    h1::before {
+        content: "5.";
+    }
+    
+    h1::after {
+        content: "1080px-px ";
+    }
+}
